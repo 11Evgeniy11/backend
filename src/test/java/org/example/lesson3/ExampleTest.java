@@ -80,9 +80,9 @@ public class ExampleTest extends AbstractTest {
         given()
                 .queryParam("apiKey", getApiKey())
                 .contentType("application/x-www-form-urlencoded")
-                .formParam("title","Pork roast with green beans")
+                .formParam("title", "Pork roast with green beans")
                 .when()
-                .post(getBaseUrl()+"recipes/cuisine")
+                .post(getBaseUrl() + "recipes/cuisine")
                 .then()
                 .statusCode(200);
     }
@@ -92,10 +92,10 @@ public class ExampleTest extends AbstractTest {
         given()
                 .queryParam("apiKey", getApiKey())
                 .contentType("application/x-www-form-urlencoded")
-                .formParam("title","Potato pancakes")
-                .formParam("ingredientList","1 onion")
+                .formParam("title", "Potato pancakes")
+                .formParam("ingredientList", "1 onion")
                 .when()
-                .post(getBaseUrl()+"recipes/cuisine")
+                .post(getBaseUrl() + "recipes/cuisine")
                 .then()
                 .statusCode(200);
     }
@@ -105,10 +105,10 @@ public class ExampleTest extends AbstractTest {
         given()
                 .queryParam("apiKey", getApiKey())
                 .contentType("application/x-www-form-urlencoded")
-                .formParam("title","Meat dumplings")
-                .formParam("ingredientList","5 eggs")
+                .formParam("title", "Meat dumplings")
+                .formParam("ingredientList", "5 eggs")
                 .when()
-                .post(getBaseUrl()+"recipes/cuisine")
+                .post(getBaseUrl() + "recipes/cuisine")
                 .then()
                 .statusCode(200);
     }
@@ -118,10 +118,10 @@ public class ExampleTest extends AbstractTest {
         given()
                 .queryParam("apiKey", getApiKey())
                 .contentType("application/x-www-form-urlencoded")
-                .formParam("title","Pizza")
-                .formParam("ingredientList","1 package active dry yeast")
+                .formParam("title", "Pizza")
+                .formParam("ingredientList", "1 package active dry yeast")
                 .when()
-                .post(getBaseUrl()+"recipes/cuisine")
+                .post(getBaseUrl() + "recipes/cuisine")
                 .then()
                 .statusCode(200);
     }
@@ -131,10 +131,10 @@ public class ExampleTest extends AbstractTest {
         given()
                 .queryParam("apiKey", getApiKey())
                 .contentType("application/x-www-form-urlencoded")
-                .formParam("title","chicken")
-                .formParam("ingredientList","1 chicken")
+                .formParam("title", "chicken")
+                .formParam("ingredientList", "1 chicken")
                 .when()
-                .post(getBaseUrl()+"recipes/cuisine")
+                .post(getBaseUrl() + "recipes/cuisine")
                 .then()
                 .statusCode(200);
     }
@@ -164,4 +164,5 @@ public class ExampleTest extends AbstractTest {
                 .jsonPath()
                 .get("id")
                 .toString();
+    }
 }
