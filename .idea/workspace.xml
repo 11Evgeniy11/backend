@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a87a55b-f1b2-4206-a440-4c64a44b5852" name="Changes" comment="Lesson5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/ExampleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/ExampleTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/dao/CategoriesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/dao/ProductsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/mapper/CategoriesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/mapper/ProductsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/model/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/model/CategoriesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/model/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/model/ProductsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +61,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -137,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678620089399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson5">
+      <created>1678621413354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678621413384</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
