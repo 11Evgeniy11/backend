@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a87a55b-f1b2-4206-a440-4c64a44b5852" name="Changes" comment="Lesson4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/api/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/api/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/dto/GetCategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/dto/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/utils/LoggingInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/utils/RetrofitUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/CreateProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/GetCategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/Utils.java" afterDir="false" />
+    <list default="true" id="2a87a55b-f1b2-4206-a440-4c64a44b5852" name="Changes" comment="Lesson5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,13 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678554954629</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson5">
+      <created>1678620089339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678620089399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Lesson3" />
     <MESSAGE value="Lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson4" />
+    <MESSAGE value="Lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson5" />
   </component>
 </project>
