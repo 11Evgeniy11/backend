@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a87a55b-f1b2-4206-a440-4c64a44b5852" name="Changes" comment="Lesson3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/AddMealRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/AddMealResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/builder/MyClassBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson4/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson4/ExampleMyClassBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson4/ExampleTest.java" afterDir="false" />
+    <list default="true" id="2a87a55b-f1b2-4206-a440-4c64a44b5852" name="Changes" comment="Lesson4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/api/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/api/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/dto/GetCategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/utils/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/utils/RetrofitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/CreateProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/GetCategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/Евгений/Desktop/Обучение. Тестирование ПО/3 четверть/Тестирование backend на Java/backend/src/main/java/Lesson4",
+    "last_opened_file_path": "C:/Users/Евгений/Desktop/Обучение. Тестирование ПО/3 четверть/Тестирование backend на Java/backend/pom.xml",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -130,12 +132,20 @@
       <option name="project" value="LOCAL" />
       <updated>1677421320372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson4">
+      <created>1678554954629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678554954629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3" />
+    <MESSAGE value="Lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson4" />
   </component>
 </project>
